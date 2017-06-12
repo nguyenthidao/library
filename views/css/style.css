@@ -1,0 +1,39 @@
+body{
+    font-family: Arial;
+    font-size: 1em;
+}
+
+header .logo{
+    border-bottom: 2px solid #ffdd40;
+}
+
+header nav{
+    border-bottom: 2px solid #ffdd40;
+}
+header nav li{
+    display: inline-block;
+}
+
+header nav li a{
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+section table{
+    border-collapse: collapse;
+}
+section table, th, td{
+    border: 1px solid #000;
+}
+
+section th, td{
+    padding: 15px;
+}
+
+footer{
+    border-top: 2px solid #ffdd40;
+}
+footer .footer-right{
+    float: right;
+}
